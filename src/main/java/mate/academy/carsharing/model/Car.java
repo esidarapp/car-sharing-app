@@ -30,7 +30,7 @@ public class Car {
     private String model;
     @Column(nullable = false)
     private String brand;
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     @Enumerated(EnumType.STRING)
     private CarType carType;
     @Column(nullable = false)
