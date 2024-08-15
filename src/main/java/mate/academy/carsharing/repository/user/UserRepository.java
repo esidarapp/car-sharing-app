@@ -1,4 +1,4 @@
-package mate.academy.carsharing.repository;
+package mate.academy.carsharing.repository.user;
 
 import java.util.Optional;
 import mate.academy.carsharing.model.User;

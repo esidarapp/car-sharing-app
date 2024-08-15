@@ -2,7 +2,7 @@ package mate.academy.carsharing.security;
 
 import lombok.RequiredArgsConstructor;
 import mate.academy.carsharing.exception.EntityNotFoundException;
-import mate.academy.carsharing.repository.UserRepository;
+import mate.academy.carsharing.repository.user.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

@@ -7,6 +7,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.NamedAttributeNode;
+import jakarta.persistence.NamedEntityGraph;
 import jakarta.persistence.Table;
 import java.time.LocalDate;
 import lombok.Getter;
@@ -18,12 +20,16 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
+@NamedEntityGraph(name = "Rental.details",
+        attributeNodes = {
+                @NamedAttributeNode("car"),
+                @NamedAttributeNode("user")})
 public class Rental {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(nullable = false)
-    private LocalDate rentalDate;
+    private LocalDate rentalDate = LocalDate.now();
     @Column(nullable = false)
     private LocalDate returnDate;
     private LocalDate actualReturnDate;

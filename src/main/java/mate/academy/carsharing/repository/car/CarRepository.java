@@ -1,4 +1,4 @@
-package mate.academy.carsharing.repository;
+package mate.academy.carsharing.repository.car;
 
 import mate.academy.carsharing.model.Car;
 import org.springframework.data.jpa.repository.JpaRepository;

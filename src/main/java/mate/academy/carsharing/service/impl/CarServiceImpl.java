@@ -8,7 +8,7 @@ import mate.academy.carsharing.dto.car.UpdateCarRequestDto;
 import mate.academy.carsharing.exception.EntityNotFoundException;
 import mate.academy.carsharing.mapper.CarMapper;
 import mate.academy.carsharing.model.Car;
-import mate.academy.carsharing.repository.CarRepository;
+import mate.academy.carsharing.repository.car.CarRepository;
 import mate.academy.carsharing.service.CarService;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
