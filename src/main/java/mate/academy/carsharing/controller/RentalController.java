@@ -58,14 +58,6 @@ public class RentalController {
 
     }
 
-    @GetMapping("/filter")
-    @PreAuthorize("hasRole('MANAGER')")
-    @Operation(summary = "Get rentals by user ID and status",
-            description = "Retrieve a list of rentals filtered by user ID and status.")
-    public List<RentalDto> search(@ParameterObject @PageableDefault RentalSearchParams params) {
-        return rentalService.search(params);
-    }
-
     @GetMapping("/{id}")
     @PreAuthorize("hasRole('MANAGER')")
     @Operation(summary = "Get a rental by ID",

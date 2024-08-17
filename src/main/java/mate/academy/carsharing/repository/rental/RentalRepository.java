@@ -8,8 +8,9 @@ import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RentalRepository extends JpaRepository<Rental, Long> {
-    @EntityGraph(attributePaths = {"car", "user"})
+    @EntityGraph(value = "Rental.details")
     Optional<Rental> findById(Long rentalId);
 
+    @EntityGraph(value = "Rental.details")
     List<Rental> findAll(Specification<Rental> spec);
 }
