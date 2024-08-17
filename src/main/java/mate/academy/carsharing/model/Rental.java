@@ -33,8 +33,8 @@ public class Rental {
     @Column(nullable = false)
     private LocalDate returnDate;
     private LocalDate actualReturnDate;
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     private Car car;
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     private User user;
 }
