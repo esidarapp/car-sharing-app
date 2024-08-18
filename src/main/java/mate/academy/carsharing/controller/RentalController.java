@@ -10,7 +10,7 @@ import mate.academy.carsharing.dto.rental.RentalDto;
 import mate.academy.carsharing.dto.rental.RentalSearchParams;
 import mate.academy.carsharing.dto.rental.ReturnRentalDto;
 import mate.academy.carsharing.model.User;
-import mate.academy.carsharing.service.RentalService;
+import mate.academy.carsharing.service.rental.RentalService;
 import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.security.access.AccessDeniedException;

@@ -1,4 +1,4 @@
-package mate.academy.carsharing.service;
+package mate.academy.carsharing.service.rental;
 
 import java.util.List;
 import mate.academy.carsharing.dto.rental.CreateRentalDto;

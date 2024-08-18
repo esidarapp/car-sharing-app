@@ -1,4 +1,4 @@
-package mate.academy.carsharing.service;
+package mate.academy.carsharing.service.user;
 
 import mate.academy.carsharing.dto.user.UpdateProfileInfoDto;
 import mate.academy.carsharing.dto.user.UpdateRoleDto;

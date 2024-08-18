@@ -8,7 +8,7 @@ import mate.academy.carsharing.dto.user.UpdateProfileInfoDto;
 import mate.academy.carsharing.dto.user.UpdateRoleDto;
 import mate.academy.carsharing.dto.user.UserResponseDto;
 import mate.academy.carsharing.model.User;
-import mate.academy.carsharing.service.UserService;
+import mate.academy.carsharing.service.user.UserService;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.GetMapping;

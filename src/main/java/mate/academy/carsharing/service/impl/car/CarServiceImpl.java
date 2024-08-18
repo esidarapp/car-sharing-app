@@ -1,4 +1,4 @@
-package mate.academy.carsharing.service.impl;
+package mate.academy.carsharing.service.impl.car;
 
 import java.util.List;
 import lombok.RequiredArgsConstructor;
@@ -9,7 +9,7 @@ import mate.academy.carsharing.exception.EntityNotFoundException;
 import mate.academy.carsharing.mapper.CarMapper;
 import mate.academy.carsharing.model.Car;
 import mate.academy.carsharing.repository.car.CarRepository;
-import mate.academy.carsharing.service.CarService;
+import mate.academy.carsharing.service.car.CarService;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
