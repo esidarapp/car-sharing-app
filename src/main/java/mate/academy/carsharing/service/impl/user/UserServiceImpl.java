@@ -1,4 +1,4 @@
-package mate.academy.carsharing.service.impl;
+package mate.academy.carsharing.service.impl.user;
 
 import lombok.RequiredArgsConstructor;
 import mate.academy.carsharing.dto.user.UpdateProfileInfoDto;
@@ -10,7 +10,7 @@ import mate.academy.carsharing.exception.RegisterException;
 import mate.academy.carsharing.mapper.UserMapper;
 import mate.academy.carsharing.model.User;
 import mate.academy.carsharing.repository.user.UserRepository;
-import mate.academy.carsharing.service.UserService;
+import mate.academy.carsharing.service.user.UserService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

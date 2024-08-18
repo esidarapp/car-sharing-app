@@ -10,7 +10,7 @@ import mate.academy.carsharing.dto.user.UserRegistrationRequestDto;
 import mate.academy.carsharing.dto.user.UserResponseDto;
 import mate.academy.carsharing.exception.RegisterException;
 import mate.academy.carsharing.security.AuthenticationService;
-import mate.academy.carsharing.service.UserService;
+import mate.academy.carsharing.service.user.UserService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

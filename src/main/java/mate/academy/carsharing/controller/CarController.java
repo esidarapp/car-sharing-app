@@ -8,7 +8,7 @@ import lombok.RequiredArgsConstructor;
 import mate.academy.carsharing.dto.car.CarDto;
 import mate.academy.carsharing.dto.car.CreateCarRequestDto;
 import mate.academy.carsharing.dto.car.UpdateCarRequestDto;
-import mate.academy.carsharing.service.CarService;
+import mate.academy.carsharing.service.car.CarService;
 import org.springdoc.core.annotations.ParameterObject;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
