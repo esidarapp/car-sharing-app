@@ -25,7 +25,7 @@ public class TelegramNotificationService implements NotificationService {
         myLongPollingBot.sendResponse(chatId, message);
     }
 
-    @Scheduled(cron = "0 * * * * ?")
+    @Scheduled(cron = "0 0 0 * * ?")
     public void checkOverdueRentals() {
         List<Rental> overdueRentals = findOverdueRentals();
 
