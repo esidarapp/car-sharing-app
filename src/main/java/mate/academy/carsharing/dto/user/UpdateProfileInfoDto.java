@@ -2,14 +2,22 @@ package mate.academy.carsharing.dto.user;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
-public record UpdateProfileInfoDto(
-        @Email
-        @NotBlank
-        String email,
-        @NotBlank
-        String firstName,
-        @NotBlank
-        String lastName
-) {
+@Getter
+@Setter
+@ToString
+@EqualsAndHashCode
+public class UpdateProfileInfoDto {
+    @Email
+    @NotBlank
+    private String email;
+    @NotBlank
+    private String firstName;
+    @NotBlank
+    private String lastName;
 }
+
