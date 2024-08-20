@@ -6,8 +6,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class CarSharingAppApplication {
+public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(CarSharingAppApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }

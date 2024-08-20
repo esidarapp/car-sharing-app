@@ -43,7 +43,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public void updateRole(UpdateRoleDto updateRoleDto, Long id) {
         User user = findUserById(id);
-        user.setRole(updateRoleDto.role());
+        user.setRole(updateRoleDto.getRole());
         userRepository.save(user);
     }
 
