@@ -8,7 +8,7 @@
 		<version>3.3.2</version>
 		<relativePath/>
 	</parent>
-	<groupId>mate.academy</groupId>
+	<groupId>com.product</groupId>
 	<artifactId>car-sharing-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>car-sharing-app</name>
