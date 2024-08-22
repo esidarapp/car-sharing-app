@@ -114,7 +114,7 @@ telegram.chat.id=<TELEGRAM_CHAT_ID>
 
 ### Entity Relationships
 Here's a diagram representing the relationships between the entities in the Car Sharing API:
-![Entity Relationships Diagram](architecture.png)
+![Entity Relationships Diagram](assets/architecture.png)
 
 
 
